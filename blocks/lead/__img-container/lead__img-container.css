@@ -1,0 +1,32 @@
+.lead__img-container {
+  position: relative;
+  margin: 64px 48px 0;  
+  min-width: 928px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1024px) {
+
+  .lead__img-container {
+    
+    margin-top: 56px;  
+    min-width: 0;
+  }
+}
+
+
+@media (max-width: 768px) {
+
+
+  .lead__img-container {
+    margin: 58px 0 0;  
+  }
+
+}
+
+@media (max-width: 320px) {
+  .lead__img-container {
+    margin-top: 38px;
+  }  
+}
