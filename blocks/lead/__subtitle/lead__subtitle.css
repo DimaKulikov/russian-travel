@@ -7,13 +7,12 @@
   font-weight: 400;
   line-height: 1.18em;
   text-align: center;
-  color: white;
 }
 
 @media (max-width: 768px) {
   .lead__subtitle {
     max-width: 80%;
-    font-size: 3.9vw;
+    font-size:3.906vw;
   }
 }
 

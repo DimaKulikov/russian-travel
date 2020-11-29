@@ -1,0 +1,17 @@
+.intro__container {
+  max-width: 984px;
+  padding: 0 48px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .intro__container {
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 320px) {
+  .intro__container {
+    padding: 0 17px;
+  }
+}

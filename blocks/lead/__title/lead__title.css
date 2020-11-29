@@ -5,9 +5,8 @@
   font-size: 96px;
   font-style: normal;
   font-weight: 900;
-  line-height: 1.06em;
+  line-height: 1.05em;
   text-align: center;
-  color: white;
 }
 
 @media (max-width: 1024px) {
