@@ -1,0 +1,32 @@
+.cover__container {  
+  position: relative;
+  margin: 0 auto;
+  width: 100vw;
+  max-width: 1184px;  
+  height: 62.5vw;
+  max-height: 720px;
+  background-image: url(./img/cover-bg.jpg);
+  background-size: cover;
+  background-position: center;  
+  box-sizing: border-box;
+  padding: 0 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover__container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2A2C2F;
+  opacity: .3;
+}
+
+.cover__container:hover::before {
+  opacity: .8;
+}
