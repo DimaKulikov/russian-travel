@@ -13,21 +13,21 @@
   padding-bottom: 0;
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .place {
     grid-template-columns: 1fr 1fr;
     column-gap: 32px;
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .place {
     padding-bottom: 71px;
     column-gap: 28px;
   }
 }
 
-@media (max-width: 560px) {
+@media screen and (max-width: 560px) {
   .place {
     padding-bottom: 49px;
     grid-template: 

@@ -2,7 +2,7 @@
   margin-right: 18px;
 }
 
-@media (max-width: 460px) {
+@media screen and (max-width: 460px) {
   .menu__item {
     margin-bottom: 32px;
   }
