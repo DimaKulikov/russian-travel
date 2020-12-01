@@ -1,0 +1,13 @@
+.menu {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+@media (max-width: 460px) {
+  .menu {
+    flex-direction: column;
+  }
+}
