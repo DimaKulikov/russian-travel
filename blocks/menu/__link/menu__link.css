@@ -1,6 +1,6 @@
 .menu__link {
   font-size: 16px;
-  line-height: 18px;
+  line-height: 1.12;
   text-decoration: none;
   color: white;
 }
@@ -12,6 +12,6 @@
 @media screen and (max-width: 460px) {
   .menu__link {
     font-size: 24px;
-    line-height: 24px;
+    line-height: 1;
   }
 }
