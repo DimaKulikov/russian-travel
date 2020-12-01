@@ -1,13 +1,14 @@
 .cover__container {  
   position: relative;
   margin: 0 auto;
-  width: 100vw;
+  width: 100%;
   max-width: 1184px;  
   height: 62.5vw;
   max-height: 720px;
   background-image: url(../../../images/cover-bg.jpg);
   background-size: cover;
   background-position: center;  
+  background-repeat: no-repeat;
   box-sizing: border-box;
   padding: 0 25px;
   display: flex;
