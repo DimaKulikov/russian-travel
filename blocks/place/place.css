@@ -27,7 +27,7 @@
   }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 460px) {
   .place {
     padding-bottom: 49px;
     grid-template: 
