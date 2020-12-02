@@ -1,6 +1,6 @@
 .lead__img-container {
   position: relative;
-  margin: 64px 48px 0;  
+  margin: 64px 48px 0;
   min-width: 928px;
   display: flex;
   flex-direction: column;
@@ -10,7 +10,7 @@
 
   .lead__img-container {
     
-    margin-top: 56px;  
+    margin-top: 56px;
     min-width: 0;
   }
 }
