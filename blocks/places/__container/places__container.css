@@ -10,7 +10,7 @@
   }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 460px) {
   .places__container {
     padding: 65px 16px 0;
   }
