@@ -1,7 +1,6 @@
-.page__cover {  
+.cover__container {  
   position: relative;
   margin: 92px auto 0;
-  width: 100%;
   max-width: 1184px;
   height: 62.5vw;
   max-height: 740px;
@@ -19,7 +18,7 @@
   color: white;
 }
 
-.page__cover::before {
+.cover__container::before {
   content: '';
   position: absolute;
   top: 0;
@@ -30,12 +29,12 @@
   opacity: .3;
 }
 
-.page__cover:hover::before {
+.cover__container:hover::before {
   opacity: .8;
 }
 
 @media screen and (max-width: 320px) {
-  .page__cover {
+  .cover__container {
     margin-top: 66px;
   }
 }

@@ -14,7 +14,6 @@
 @import url(../blocks/page/__intro/page__intro.css);
 @import url(../blocks/page/__photo-grid/page__photo-grid.css);
 @import url(../blocks/page/__places/page__places.css);
-@import url(../blocks/page/__cover/page__cover.css);
 
 /* Header */
 
@@ -63,6 +62,7 @@
 /* Cover */
 
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__container/cover__container.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__title/cover__title.css);
 
