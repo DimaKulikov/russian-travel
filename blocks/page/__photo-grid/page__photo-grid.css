@@ -1,6 +1,6 @@
 .page__photo-grid {
   margin: 0 auto;
-  max-width: 1280px;  
+  max-width: 1280px;
   padding: 92px 48px 0;
   display: grid;
   gap: 16px;
@@ -18,7 +18,7 @@
 
 @media screen and (max-width: 320px) {
   .page__photo-grid {  
-    padding: 64px 16px 0; 
+    padding: 64px 16px 0;
     gap: 12px;
   }
 }
