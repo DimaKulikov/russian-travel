@@ -1,17 +1,17 @@
-.places__container {
+.page__places {
   max-width: 984px;
   padding: 92px 48px 0;
   margin: 0 auto;
 }
 
 @media screen and (max-width: 768px) {
-  .places__container {
+  .page__places {
     padding: 91px 24px 0;
   }
 }
 
 @media screen and (max-width: 460px) {
-  .places__container {
+  .page__places {
     padding: 65px 16px 0;
   }
 }
