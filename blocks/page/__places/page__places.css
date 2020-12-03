@@ -4,14 +4,3 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 768px) {
-  .page__places {
-    padding: 91px 24px 0;
-  }
-}
-
-@media screen and (max-width: 460px) {
-  .page__places {
-    padding: 65px 16px 0;
-  }
-}
