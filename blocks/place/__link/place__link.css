@@ -1,6 +1,6 @@
 .place__link {
-  display: inline-block;
-  margin-top: 12px;
+  grid-area: url;
+  align-self: end;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -10,5 +10,11 @@
 
 .place__link:hover {
   opacity: .8;
+}
+
+@media screen and (max-width: 460px) {
+  .place__link {
+    display: none;
+  }
 }
 
