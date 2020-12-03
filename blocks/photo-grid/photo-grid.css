@@ -1,8 +1,9 @@
 .photo-grid {
   padding: 92px 48px 0;
   display: grid;
-  gap: 14px;
-  grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+
 }
 
 @media screen and (max-width: 768px) {
@@ -17,4 +18,9 @@
     padding: 64px 16px 0;
     gap: 12px;
   }
+}
+
+.photo-grid__container {
+  margin: 0 auto;
+  
 }
