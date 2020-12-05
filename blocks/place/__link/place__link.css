@@ -12,6 +12,12 @@
   opacity: .8;
 }
 
+@media screen and (max-width: 768px) {
+  .place__link {
+    font-size: 16px;
+  }
+}
+
 @media screen and (max-width: 460px) {
   .place__link {
     display: none;
